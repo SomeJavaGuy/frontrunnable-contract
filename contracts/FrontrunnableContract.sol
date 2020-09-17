@@ -25,7 +25,7 @@ contract FrontrunnableContract {
 
             emit Success();
         } else {
-            Fail();
+            emit Fail();
         }
     }
 }
